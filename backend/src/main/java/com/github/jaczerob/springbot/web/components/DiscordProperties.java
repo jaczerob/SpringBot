@@ -1,0 +1,19 @@
+package com.github.jaczerob.springbot.web.components;
+
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.PropertySource;
+import org.springframework.stereotype.Component;
+
+import lombok.Getter;
+import lombok.Setter;
+
+
+@Getter
+@Setter
+
+@Component
+@PropertySource("classpath:discord.properties")
+@ConfigurationProperties
+public class DiscordProperties {
+    private String token;
+}

@@ -1,0 +1,12 @@
+{
+    "configurations": [ 
+        {
+            "type": "java",
+            "name": "Launch Backend",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/backend",
+            "mainClass": "com.github.jaczerob.springbot.web.SpringbotApplication",
+            "projectName": "springbot"
+        }
+    ]
+}
